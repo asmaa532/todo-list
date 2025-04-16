@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 2, 65);
+}
+.main{
+    width: 360px;
+    background-color: #fff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px lime;
+    padding: 20px;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    border: 0.4px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+input{
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+button{
+    padding: 6px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: green;
+    font-weight: 700;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#addtaskbtn{
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
